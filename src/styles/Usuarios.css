@@ -1,0 +1,76 @@
+:root {
+    --Red: hsl(1, 90%, 64%);
+    --Blue: hsl(219, 85%, 26%);
+    --White: hsl(0, 0%, 100%);
+    --Very-light-grayish-blue: hsl(210, 60%, 98%);
+    --Light-grayish-blue-1: hsl(211, 68%, 94%);
+    --Light-grayish-blue-2: hsl(205, 33%, 90%);
+    --Grayish-blue: hsl(219, 14%, 63%);
+    --Dark-grayish-blue: hsl(219, 12%, 42%);
+    --Very-dark-blue: hsl(224, 21%, 14%);
+  }
+  
+  .post {
+    background-color: var(--Very-light-grayish-blue);
+    border-radius: 8px;
+    display: flex;
+    gap: 13px;
+    padding: 16px;
+    font-size: 0.87em;
+    cursor: pointer;
+    color: var(--Dark-grayish-blue);
+    max-width: 433px;
+    position: relative;
+  }
+  
+  .post .image {
+    width: 39px;
+    height: 39px;
+  }
+  
+  .post .name {
+    font-weight: bold;
+    color: var(--Very-dark-blue);
+  }
+  
+  .post .name:hover {
+    color: var(--Blue);
+  }
+  
+  .post .reaction {
+    font-weight: bold;
+    transition: transform 0.3s;
+  }
+  
+  .post .reaction:hover {
+    color: var(--Blue);
+    transform: scale(1.5);
+  }
+  
+  .post .not-read {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: var(--Red);
+    border-radius: 50%;
+    margin-left: 8px;
+  }
+  
+  .post .message-container {
+    border: 2px solid var(--Light-grayish-blue-2);
+    border-radius: 5px;
+    padding: 16px;
+    margin-top: 12px;
+  }
+  
+  .post .message-container:hover {
+    background-color: var(--Very-light-grayish-blue);
+  }
+  .post .imageChest {
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    margin-right: 16px;
+  }
