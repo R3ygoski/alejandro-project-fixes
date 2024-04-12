@@ -10,6 +10,8 @@ import avatarKimberly from './images/avatar-kimberly-smith.webp'
 import avatarNathan from './images/avatar-nathan-peterson.webp'
 import avatarAnna from './images/avatar-anna-kim.webp'
 
+import imgChess from './images/image-chess.webp'
+
 // We need to export this as module, so we can use in another place.
 export const userList = [
     {
@@ -53,7 +55,7 @@ export const userList = [
       time: "1 week ago",
       notification: false,
       avatar: avatarKimberly,
-      imgChest: "src/assets/images/image-chess.webp"
+      imgChest: imgChess
     },
     {
       name: "Nathan Peterson ",
